@@ -5,8 +5,7 @@ Requires at least: 5.6
 Tested up to: 6.8
 Requires PHP: 7.4
 Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+License: The Demo Reset Pro license is comprised of two parts. See the License section below for more details.
 
 Reset any WordPress website manually or automatically to a predefined Reset Point, perfect for sales demos, training, and presentations.
 
@@ -231,6 +230,22 @@ Demo Reset Documentation: [https://ministryofplugins.com/demo-reset-docs](https:
 #### Are Reset Runners safe? 
 
 *   Yes, they are created with a unique randomly generated 15-character token, making them highly secure. Once created, a Reset Runner should always be kept confidential.
+
+== License ==
+
+License: The Demo Reset Pro license is comprised of two parts:
+
+*   Part 1: Its PHP code is licensed under the GPL-2.0+ (V2 or later), like WordPress.
+	More info @ https://www.gnu.org/licenses/
+*   Part 2: Everything else (e.g., CSS, HTML, JavaScript, images, design) is licensed according to the purchased license.
+	These components are protected by copyright and governed by commercial licensing terms.
+	More info @ https://ministryofplugins.com/terms-and-conditions/
+
+Without prior written consent from Auckland Advertising Limited (trading as Ministry of Plugins), you must NOT directly or indirectly: license, sub-license, sell, resell, or provide for free any aspect or component of Part 2.
+Further license information is available in the plugin directory, /license/, and online @ https://ministryofplugins.com/terms-and-conditions/
+Upgrades: Your purchase of Demo Reset Pro includes free upgrades according to the purchased license (Yearly or Lifetime). Plugin upgrades include new features, bug fixes, and other improvements.
+
+Copyright 2025 Auckland Advertising Limited (trading as Ministry of Plugins). All rights reserved.
 
 == Changelog ==
 
