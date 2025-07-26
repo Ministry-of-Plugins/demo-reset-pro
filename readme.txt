@@ -28,7 +28,7 @@ At Ministry of Plugins we believe, it is our duty to develop WordPress technolog
 
 Simply install the Demo Reset free plugin or Demo Reset Pro plugin on your WordPress website and create a Reset Point to put the site in the Frozen State (Demo Mode). This allows you to let your customers to interact with the website without any risk of permanent changes. With each automatic or manual reset, all customer changes will be removed, restoring the website to its original state. In short; Now your website is ready for Demo purposes.
 
-![Demo Reset Concept Diagram](https://ministryofplugins.com/wp-content/uploads/2025/03/demo-reset-concept-diagram.png)
+See the Concept Diagram: [Image link...](https://raw.githubusercontent.com/Ministry-of-Plugins/demo-reset-pro/refs/heads/main/demo-reset-concept-diagram.png)
 
 ### Use Cases of Demo Reset plugin
 
@@ -44,82 +44,15 @@ For website developers, converting a newly developed WordPress website into a De
 
 Training the staff and stakeholders on a newly developed WordPress website is more effective when using the website in Demo state. This approach allows trainees to interact with the website and explore its features without the risk of making permanent changes. After the training session, the developer can reset the website to its original state, removing any temporary modifications. This method ensures the site remains pristine and always ready for future use. The Demo Reset plugin can be turned off as needed.
 
-![Demo Reset Use Cases Chart](https://ministryofplugins.com/wp-content/uploads/2025/03/use-cases-process-chart.png)
-
-### Demo Reset Free Plugin
-
-#### Interfaces of Demo Reset Free Plugin
-
-https://youtu.be/JnDlcWehfqI?si=wT-p4R0-89JdODUT
-
-#### Features of Free Plugin:
-
-*   Able to create multiple Reset Points.
-*   Manual Demo Reset execution capability.
-*   Demo Reset Cycle automation via a regular URL.
-*   Demo Reset Cycle automation via a RESTful URL.
-*   The entire Database will reset to the chosen Reset Point.
-*   All logged-in users will be logged out during the Reset process.
-*   Displays the Demo Reset Status (THAWED state or FROZEN state) on the WP Admin Bar.
-*   Media files uploading and deleting is restricted in the FROZEN state. (Images, PDFs etc.)
-*   Plugins, Themes are WP Core auto updates are restricted, but can update manually in the THAWED state.
-*   Capable of deploying Demo Websites only for Non-admin users. Because all admins can deactivate the Demo Reset plugin or delete Reset Points.
-
-#### THAWED state of Free Plugin:
-
-*   Changes made by admins or other users will remain on the website.
-*   Permalink Settings page is accessible.
-*   All the auto-updates are suspended.
-*   Admins can install WP Core, Plugin & Theme updates.
-*   Admins can install or delete Plugins & Themes.
-*   Admins and users can upload new images or files.
-*   Admins and users can delete/trash existing uploaded images or files.
-*   Only admins can access the Demo Reset Admin Menu.
-*   Only admins can change Demo Reset settings.
-*   Admins must add at least one Reset Point to activate the FROZEN state (Demo Mode).
-
-#### FROZEN state of Free Plugin:
-
-*   Changes made by admins or other users will be reset in every Reset Cycle.
-*   Permalink Settings page is restricted.
-*   All the auto-updates are suspended.
-*   Installation of WP Core, Plugin & Theme updates is suspended.
-*   Installation, activation, deactivation or deletion of Plugins & Themes are suspended.
-*   New images or files uploading is suspended.
-*   Deletion of already existing uploaded images or files is suspended.
-*   Logged-in users will automatically be logged out during the reset process.
-*   Only admins can access the Demo Reset Admin Menu.
-*   Only admins can change Demo Reset settings.
-*   Admins can add multiple Reset Points.
-*   Admins should delete all Reset Points to get back to the THAWED state.
-
-#### Setting a WordPress website to FROZEN state (Valid for Free & Pro)
-
-https://youtu.be/Q-ES0ey_0kg?si=bP2tWv1m_OCVa654
-
-#### Setting an Active Reset Point for Auto Reset (Valid for Free & Pro)
-
-https://youtu.be/rbw3ffD7jOM?si=V8se27ZzqLPqqfk5
-
-#### Setting Reset Runner URL to run Auto Reset (Valid for Free & Pro)
-
-https://youtu.be/S4qRo6vgyAY?si=QNq6TKHmyjYn54Kk
-
-#### Setting Reset Runner REST URL to run Auto Reset (Valid for Free & Pro)
-
-https://youtu.be/GIJi1zxjGMU?si=5cdp3el-QTREWKrK
-
-#### Setting a WordPress website back to THAWED state (Valid for Free & Pro)
-
-https://youtu.be/tq7wX74X2-s?si=yjEEqCpqG-Sm9xQG
-
-Demo Reset Documentation: [https://ministryofplugins.com/demo-reset-docs](https://ministryofplugins.com/demo-reset-docs)
+See the Use Cases Diagram: [Image link...](https://raw.githubusercontent.com/Ministry-of-Plugins/demo-reset-pro/refs/heads/main/use-cases-process-chart.png)
 
 ### Demo Reset Pro Plugin
 
-#### Interfaces of Demo Reset Pro Plugin
+#### Demo Reset Pro - Quick Introduction
 
-https://youtu.be/GswUX7dRuE0?si=NV-cFyu2kfWrvrTU
+https://youtu.be/oicwILzz0Yo?si=3ulohkktYtP4crDF
+
+[YouTube video link...](https://youtu.be/oicwILzz0Yo?si=3ulohkktYtP4crDF)
 
 ### Features of Pro Plugin:
 
@@ -148,6 +81,71 @@ https://youtu.be/GswUX7dRuE0?si=NV-cFyu2kfWrvrTU
 
 Demo Reset Documentation: [https://ministryofplugins.com/demo-reset-docs](https://ministryofplugins.com/demo-reset-docs)
 
+#### THAWED state of Pro Plugin:
+
+*   Admin who activate the Demo Reset Pro plugin (Demo Reset Admin) holds the highest privileges.
+*   Changes made by admins or other users will remain on the website.
+*   THAWED State Website Isolation can be activated or deactivated via settings.
+*   Permalink Settings page is accessible.
+*   All the auto-updates are suspended.
+*   Only the Demo Reset Admin can install WP Core, Plugin & Theme updates.
+*   Only the Demo Reset Admin can install or delete Plugins & Themes.
+*   Admins and users can upload new images or files.
+*   Admins and users can delete/trash existing uploaded images or files.
+*   Only the Demo Reset Admin can access the Demo Reset Admin Menu.
+*   Only the Demo Reset Admin can access the Help Articles Admin Menu.
+*   Only the Demo Reset Admin can change Demo Reset settings and Promo Bar settings.
+*   The Demo Reset Admin must add at least one Reset Point to activate the FROZEN state (Demo Mode).
+
+#### FROZEN state of Pro Plugin:
+
+*   Admin who activate the Demo Reset Pro plugin (Demo Reset Admin) holds the highest privileges.
+*   Changes made by admins or other users will be reset in every Reset Cycle.
+*   Permalink Settings page is restricted.
+*   All the auto-updates are suspended.
+*   Installation of WP Core, Plugin & Theme updates is suspended.
+*   Installation, activation, deactivation or deletion of Plugins & Themes are suspended.
+*   New images or files uploading can be allowed or suspended via settings.
+*   Deletion of already existing uploaded images or files can be allowed or suspended via settings.
+*   Whether logged-in users remain logged in or are forced to log out during the reset can be configured via settings.
+*   Only the Demo Reset Admin can access the Demo Reset Admin Menu.
+*   All users including Demo Reset Admin are restricted from accessing the Help Articles Admin Menu.
+*   Only the Demo Reset Admin can change Demo Reset settings and Promo Bar settings.
+*   The Demo Reset Admin can add more Reset Points when File Upload is not allowed in settings.
+*   The Demo Reset Admin must delete all Reset Points to get back to the THAWED state.
+
+#### Setting a WordPress website to FROZEN state (Valid for Free & Pro)
+
+https://youtu.be/Q-ES0ey_0kg?si=bP2tWv1m_OCVa654
+
+[YouTube video link...](https://youtu.be/Q-ES0ey_0kg?si=bP2tWv1m_OCVa654)
+
+#### Setting an Active Reset Point for Auto Reset (Valid for Free & Pro)
+
+https://youtu.be/rbw3ffD7jOM?si=V8se27ZzqLPqqfk5
+
+[YouTube video link...](https://youtu.be/rbw3ffD7jOM?si=V8se27ZzqLPqqfk5)
+
+#### Setting Reset Runner URL to run Auto Reset (Valid for Free & Pro)
+
+https://youtu.be/S4qRo6vgyAY?si=QNq6TKHmyjYn54Kk
+
+[YouTube video link...](https://youtu.be/S4qRo6vgyAY?si=QNq6TKHmyjYn54Kk)
+
+#### Setting Reset Runner REST URL to run Auto Reset (Valid for Free & Pro)
+
+https://youtu.be/GIJi1zxjGMU?si=5cdp3el-QTREWKrK
+
+[YouTube video link...](https://youtu.be/GIJi1zxjGMU?si=5cdp3el-QTREWKrK)
+
+#### Setting a WordPress website back to THAWED state (Valid for Free & Pro)
+
+https://youtu.be/tq7wX74X2-s?si=yjEEqCpqG-Sm9xQG
+
+[YouTube video link...](https://youtu.be/tq7wX74X2-s?si=yjEEqCpqG-Sm9xQG)
+
+Demo Reset Documentation: [https://ministryofplugins.com/demo-reset-docs](https://ministryofplugins.com/demo-reset-docs)
+
 == Installation ==
 
 ### Requirements
@@ -157,10 +155,24 @@ Demo Reset Documentation: [https://ministryofplugins.com/demo-reset-docs](https:
 *   The website should not be a WordPress multisite.
 *   If both the Demo Reset Free and Pro plugins are installed on the same website, neither will activate until one is uninstalled.
 
-### Installation
+### Installing via the WordPress Admin Area:
 
-*   Method 1: Install and activate the Demo Reset plugin via the WordPress Plugin Installer.
-*   Method 2: Download the Demo Reset plugin zip, extract it, and upload its contents to the wp-content/plugins/ directory. Then, activate the plugin from the Plugins page in the WordPress Admin area.
+*   If the free version is currently installed, deactivate and delete it before proceeding.
+*   Download the Pro plugin ZIP file you purchased from your Ministry of Plugins account.
+*   In your WordPress dashboard, go to Plugins ▸ Add New ▸ Upload Plugin.
+*   Choose the ZIP file from your computer and click Install Now.
+*   Once the installation is complete, click Activate on the Plugins screen.
+*   Navigate to the License page of the plugin and enter your license key to activate it.
+*   That is it — your Pro plugin is now ready to use.
+
+### Installing via FTP
+
+*   If the free version is currently installed, deactivate and delete it before proceeding.
+*   Download the Pro plugin ZIP file you purchased from your Ministry of Plugins account and unzip it on your computer.
+*   Connect to your website via FTP and upload the unzipped plugin folder to the wp-content/plugins/ directory.
+*   Log in to your WordPress dashboard and activate the plugin from the Plugins screen.
+*   Go to the License page of the plugin and enter your license key to activate it.
+*   That is it — your Pro plugin is now ready to use.
 
 ### Notes
 
@@ -214,36 +226,14 @@ Demo Reset Documentation: [https://ministryofplugins.com/demo-reset-docs](https:
 
 #### What makes WordPress Cron unsuitable for triggering a website reset?
 
-*   WordPress cron is a pseudo-cron system that only triggers whenever a page is loaded. Therefore, it is impossible to trigger the Website Reset Process with WordPress cron in consistent time intervals. The trigger must be outside of the WordPress system.
+*   WordPress cron is a pseudo-cron system that triggers when a page is loaded. Therefore, it is unreliable for triggering a robust (consistent) Website Reset Process without running into numerous issues. For this reason, the trigger must come from outside the WordPress system. Demo Reset provides highly secure reset trigger mechanisms via Reset Runners to address this problem.
 
 #### Are Reset Runners safe? 
 
-*   Yes, they are generated with a unique randomly generated 15-character token, making them highly secure. Once generated, a Reset Runner should always be kept confidential.
-
-== Screenshots ==
-
-1. Demo Reset Dashboard - THAWED state (Non-Demo mode)
-2. Add New Reset Point
-3. Reset Points - THAWED state (Non-Demo mode)
-4. Reset Runners
-5. Settings - THAWED state (Non-Demo mode)
-6. Demo Reset Dashboard - FROZEN state (Demo Mode)
-7. Reset Points - FROZEN state (Demo Mode)
-8. Edit Reset Point - FROZEN state (Demo Mode)
-9. Delete Reset Point - FROZEN state (Demo Mode)
-10. Reset to a Reset Point - FROZEN state (Demo Mode)
-11. Settings - FROZEN state (Demo Mode)
-12. Philosophy and Concept
-13. Use Cases of Demo Reset plugin
-14. Pro Plugin vs Free Plugin
-15. THAWED state vs FROZEN state
-16. Help Resources
-17. WP Dashboard - THAWED state (Non-Demo mode)
-18. WP Dashboard - FROZEN state (Demo Mode)
-19. Demo Reset Pro Dashboard - FROZEN state (Demo Mode)
+*   Yes, they are created with a unique randomly generated 15-character token, making them highly secure. Once created, a Reset Runner should always be kept confidential.
 
 == Changelog ==
 
-##### 1.0.0
+##### 1.0.0 - 01/08/2025
 
-Initial release.
+* Initial release.
