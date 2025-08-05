@@ -5,7 +5,7 @@ Requires at least: 5.6
 Tested up to: 6.8
 Requires PHP: 7.4
 Stable tag: 1.0.0
-License: The Demo Reset Pro license is comprised of two parts. See the License section below for more details.
+License: The Demo Reset Pro license is comprised of two parts. Please refer to the License section below for more details.
 
 Reset any WordPress website manually or automatically to a predefined Reset Point, perfect for sales demos, training, and presentations.
 
@@ -237,9 +237,12 @@ License: The Demo Reset Pro license is comprised of two parts:
 
 *   Part 1: Its PHP code is licensed under the GPL-2.0+ (V2 or later), like WordPress.
 	More info @ https://www.gnu.org/licenses/
+
 *   Part 2: Everything else (e.g., CSS, HTML, JavaScript, images, design) is licensed according to the purchased license.
 	These components are protected by copyright and governed by commercial licensing terms.
 	More info @ https://ministryofplugins.com/terms-and-conditions/
+
+Use of this plugin constitutes acceptance of both parts of the license.
 
 Without prior written consent from Auckland Advertising Limited (trading as Ministry of Plugins), you must NOT directly or indirectly: license, sub-license, sell, resell, or provide for free any aspect or component of Part 2.
 Further license information is available in the plugin directory, /license/, and online @ https://ministryofplugins.com/terms-and-conditions/
@@ -249,6 +252,6 @@ Copyright 2025 Auckland Advertising Limited (trading as Ministry of Plugins). Al
 
 == Changelog ==
 
-##### 1.0.0 - 01/08/2025
+##### 1.0.0 - 05/08/2025
 
 * Initial release.
