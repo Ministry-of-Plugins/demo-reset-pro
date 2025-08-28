@@ -4,7 +4,7 @@ Tags: demo, theme demos, reset, wordpress-reset, restore
 Requires at least: 5.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: The Demo Reset Pro license is comprised of two parts. Please refer to the License section below for more details.
 
 Reset any WordPress website manually or automatically to a predefined Reset Point, perfect for sales demos, training, and presentations.
@@ -85,7 +85,7 @@ Demo Reset Documentation: [https://ministryofplugins.com/demo-reset-docs](https:
 *   Admin who activate the Demo Reset Pro plugin (Demo Reset Admin) holds the highest privileges.
 *   Changes made by admins or other users will remain on the website.
 *   THAWED State Website Isolation can be activated or deactivated via settings.
-*   Permalink Settings page is accessible.
+*   Permalink and Site Settings are restricted for all users except Demo Reset Admin.
 *   All the auto-updates are suspended.
 *   Only the Demo Reset Admin can install WP Core, Plugin & Theme updates.
 *   Only the Demo Reset Admin can install or delete Plugins & Themes.
@@ -100,7 +100,7 @@ Demo Reset Documentation: [https://ministryofplugins.com/demo-reset-docs](https:
 
 *   Admin who activate the Demo Reset Pro plugin (Demo Reset Admin) holds the highest privileges.
 *   Changes made by admins or other users will be reset in every Reset Cycle.
-*   Permalink Settings page is restricted.
+*   Permalink & Site Settings are restricted for all users.
 *   All the auto-updates are suspended.
 *   Installation of WP Core, Plugin & Theme updates is suspended.
 *   Installation, activation, deactivation or deletion of Plugins & Themes are suspended.
@@ -255,3 +255,21 @@ Copyright 2025 Auckland Advertising Limited (trading as Ministry of Plugins). Al
 ##### 1.0.0 - 05/08/2025
 
 * Initial release.
+
+##### 1.0.1 - 20/08/2025
+
+Capabilities & Roles
+* Added: Stricter checks on sensitive capabilities such as File Uploads, Themes, and User Management.
+
+Restrictions & Access Control
+* Added: Admin menu items for Updates, Plugins, Site Settings, Demo Reset Help Articles, and some Tools pages are hidden for restricted users based on Demo Reset Status.
+* Added: Redirect rules for restricted users trying to access the above areas.
+* Added: Filters demo_reset_blocked_main_menus and demo_reset_blocked_sub_menus to hide and block admin menu items and pages.
+* Added: Protection for Demo Reset Admin accounts against tampering.
+* Added: Restriction on all users using the WP REST API when the site is in THAWED State Isolation.
+* Changed: THAWED State Isolation is now enabled by default.
+* Removed: The redirect_away_from_perma_set() function due to improvements.
+* Removed: The default /wp/v2/settings REST API endpoint to prevent unauthorized settings changes.
+
+Notifications & Notes
+* Changed: Notifications and notes are updated according to recent changes.
