@@ -268,10 +268,12 @@ Restrictions & Access Control
 * Added: Protection for Demo Reset Admin accounts against tampering.
 * Added: Restriction on all users using the WP REST API when the site is in THAWED State Isolation.
 * Changed: THAWED State Isolation is now enabled by default.
-* Changed: License check now preserves its tracking transient during resets and no longer depends on a specific trigger page.
-* Changed: Admin notifications now show available Demo Reset Pro plugin updates, including on the WordPress Dashboard.
 * Removed: The redirect_away_from_perma_set() function due to improvements.
 * Removed: The default /wp/v2/settings REST API endpoint to prevent unauthorized settings changes.
 
 Notifications & Notes
+* Changed: Admin notifications now show available Demo Reset Pro plugin updates, including on the WordPress Dashboard.
 * Changed: Notifications and notes are updated according to recent changes.
+
+Licensing
+* Changed: License check now preserves its tracking transient during resets and no longer depends on a specific trigger page.
