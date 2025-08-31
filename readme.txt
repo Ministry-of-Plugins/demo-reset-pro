@@ -4,7 +4,7 @@ Tags: demo, theme demos, reset, wordpress-reset, restore
 Requires at least: 5.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: The Demo Reset Pro license is comprised of two parts. Please refer to the License section below for more details.
 
 Reset any WordPress website manually or automatically to a predefined Reset Point, perfect for sales demos, training, and presentations.
@@ -85,7 +85,7 @@ Demo Reset Documentation: [https://ministryofplugins.com/demo-reset-docs](https:
 *   Admin who activate the Demo Reset Pro plugin (Demo Reset Admin) holds the highest privileges.
 *   Changes made by admins or other users will remain on the website.
 *   THAWED State Website Isolation can be activated or deactivated via settings.
-*   Permalink and Site Settings are restricted for all users except Demo Reset Admin.
+*   Permalink, Site Settings and Users are restricted for all users except Demo Reset Admin.
 *   All the auto-updates are suspended.
 *   Only the Demo Reset Admin can install WP Core, Plugin & Theme updates.
 *   Only the Demo Reset Admin can install or delete Plugins & Themes.
@@ -100,7 +100,7 @@ Demo Reset Documentation: [https://ministryofplugins.com/demo-reset-docs](https:
 
 *   Admin who activate the Demo Reset Pro plugin (Demo Reset Admin) holds the highest privileges.
 *   Changes made by admins or other users will be reset in every Reset Cycle.
-*   Permalink & Site Settings are restricted for all users.
+*   Permalink, Site Settings and Users are restricted for all users.
 *   All the auto-updates are suspended.
 *   Installation of WP Core, Plugin & Theme updates is suspended.
 *   Installation, activation, deactivation or deletion of Plugins & Themes are suspended.
@@ -252,9 +252,21 @@ Copyright 2025 Auckland Advertising Limited (trading as Ministry of Plugins). Al
 
 == Changelog ==
 
-##### 1.0.0 - 05/08/2025
+##### 1.0.2 - 31/08/2025
 
-* Initial release.
+Capabilities & Roles
+* Changed: Stricter checks on sensitive User Management capabilities.
+
+Restrictions & Access Control
+* Added: Admin menu items for Users are hidden for restricted users based on Demo Reset Status.
+* Added: Redirect rules for restricted users trying to access the above areas.
+
+Notifications & Notes
+* Changed: The THAWED State Isolation notices have been revised for better clarity.
+* Changed: Notifications and notes are updated according to recent changes.
+
+Readme file
+* Changed: Improved the order of changelog entries for clarity.
 
 ##### 1.0.1 - 29/08/2025
 
@@ -277,3 +289,7 @@ Notifications & Notes
 
 Licensing
 * Changed: License check now preserves its tracking transient during resets and no longer depends on a specific trigger page.
+
+##### 1.0.0 - 05/08/2025
+
+* Initial release.
