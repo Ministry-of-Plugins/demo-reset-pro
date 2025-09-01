@@ -231,6 +231,10 @@ Demo Reset Documentation: [https://ministryofplugins.com/demo-reset-docs](https:
 
 *   Yes, they are created with a unique randomly generated 15-character token, making them highly secure. Once created, a Reset Runner should always be kept confidential.
 
+#### Do caching plugins prevent URL-based Reset Runners and the Countdown Timer from working?
+
+*   Caching plugins prevent the proper execution of URL-based Reset Runners and the Countdown Timer, so you must turn off caching on your demo website or disable the caching plugin. Also, be aware of server-level caching mechanisms; if they prevent Reset Runners from executing, please disable them. Based on our current testing, CDN caching (Cloudflare caching) does not block Reset Runners unless restricted by CDN firewalls.
+
 == License ==
 
 License: The Demo Reset Pro license is comprised of two parts:
@@ -252,7 +256,7 @@ Copyright 2025 Auckland Advertising Limited (trading as Ministry of Plugins). Al
 
 == Changelog ==
 
-##### 1.0.2 - 31/08/2025
+##### 1.0.2 - 01/09/2025
 
 Capabilities & Roles
 * Changed: Stricter checks on sensitive User Management capabilities.
@@ -262,10 +266,12 @@ Restrictions & Access Control
 * Added: Redirect rules for restricted users trying to access the above areas.
 
 Notifications & Notes
+* Added: A note about the effect of caching on URL-based Reset Runners and the Countdown Timer has been added to the Reset Runners page in the Important Notes section.
 * Changed: The THAWED State Isolation notices have been revised for better clarity.
 * Changed: Notifications and notes are updated according to recent changes.
 
 Readme file
+* Added: A note about the effect of caching on URL-based Reset Runners and the Countdown Timer has been added to the FAQ section.
 * Changed: Improved the order of changelog entries for clarity.
 
 ##### 1.0.1 - 29/08/2025
